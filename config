@@ -1,0 +1,29 @@
+[header]
+header_visibility = "no"
+header_window_color = "default"
+
+[playlist]
+playlist_display_mode = "classic"
+song_list_format = "$5%t $R$6%a"
+now_playing_prefix = "$b"
+now_playing_suffix = "$/b"
+browser_playlist_prefix = "$1»$1 "
+titles_visibility = yes
+
+[statusbar]
+progressbar_look = "━━━"
+statusbar_visibility = "yes"
+
+[library]
+mpd_music_dir = ~/Music
+user_interface = classic
+browser_display_mode = classic
+
+[global]
+main_window_color = "default"
+centered_cursor = "yes"
+enable_window_title = "yes"
+startup_screen = media_library
+media_library_primary_tag = album_artist
+#execute_on_song_change = ~/.ncmpcpp/./art.sh
+
